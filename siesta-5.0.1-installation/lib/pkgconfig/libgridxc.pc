@@ -1,0 +1,9 @@
+prefix=/nlsasfs/home/sysadmin/yvardhan/Git_test/siesta-5.0.1-installation
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libgridxc
+Description: Library for XC computation on grids
+Version: 2.0.2
+Libs: -L${libdir} -lgridxc
+Cflags: -I${includedir} -I${includedir}/libgridxc/GNU-11.4.0

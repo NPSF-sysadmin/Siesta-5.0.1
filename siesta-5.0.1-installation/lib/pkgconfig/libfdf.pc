@@ -1,0 +1,9 @@
+prefix=/nlsasfs/home/sysadmin/yvardhan/Git_test/siesta-5.0.1-installation
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libfdf
+Description: Flexible Data Format library
+Version: 0.5.1
+Libs: -L${libdir} -lfdf
+Cflags: -I${includedir} -I${includedir}/libfdf/GNU-11.4.0

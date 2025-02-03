@@ -1,0 +1,9 @@
+prefix=/nlsasfs/home/sysadmin/yvardhan/Git_test/siesta-5.0.1-installation
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: toml-f
+Description: A TOML parser implementation for data serialization and deserialization in Fortran
+Version: 0.2.4
+Libs: -L${libdir} -ltoml-f
+Cflags: -I${includedir} -I${includedir}/toml-f/GNU-11.4.0

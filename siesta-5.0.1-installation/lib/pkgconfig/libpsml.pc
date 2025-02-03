@@ -1,0 +1,9 @@
+prefix=/nlsasfs/home/sysadmin/yvardhan/Git_test/siesta-5.0.1-installation
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libpsml
+Description: Library to process PSML pseudopotential files
+Version: 2.1.0
+Libs: -L${libdir} -lpsml
+Cflags: -I${includedir} -I${includedir}/libpsml/GNU-11.4.0

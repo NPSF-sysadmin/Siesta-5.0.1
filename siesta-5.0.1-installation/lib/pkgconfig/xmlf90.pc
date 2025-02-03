@@ -1,0 +1,9 @@
+prefix=/nlsasfs/home/sysadmin/yvardhan/Git_test/siesta-5.0.1-installation
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: xmlf90
+Description: Lightweight XML parser in fortran
+Version: 1.7.0
+Libs: -L${libdir} -lxmlf90
+Cflags: -I${includedir} -I${includedir}/xmlf90/GNU-11.4.0
