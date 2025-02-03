@@ -11,7 +11,7 @@
 </p>
 
 <pre>
-<code>git clone https://github.com/your-username/siesta-5.0.1.git</code>
+<code>git clone https://github.com/NPSF-sysadmin/siesta-5.0.1.git</code>
 </pre>
 
 <h2>Contents</h2>
