@@ -24,4 +24,4 @@ source /opt/intel/env.sh
 
 # Running program
 mpirun -np 8 ../siesta-5.0.1-installation/bin/siesta/bin/siesta < *.fdf > relax.out
-# give full loaction of the siesta 
+# give full location of the siesta 
